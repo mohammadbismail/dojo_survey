@@ -1,0 +1,10 @@
+body {
+  margin: 5% 20%;
+}
+h2 {
+  text-decoration: underline;
+}
+div {
+  padding: 4%;
+  border: 2px solid black;
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 5% 30%;
+}
+
+form {
+  border: 2px solid black;
+  padding: 5%;
+  /* text-align: center; */
+}
+form * {
+  margin: 2%;
+}
+button {
+  background-color: blue;
+  color: white;
+  box-shadow: 2px 2px black;
+}
