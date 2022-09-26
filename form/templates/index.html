@@ -12,21 +12,18 @@
 
 <body>
 
-    <form action="/input" method="post">
+    <form action="result" method="post">
         {% csrf_token %}
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name"><br>
-        <label for="location">Dojo Location:</label>
-        <select name="location" id="location">
-            <option value="" id="location" ">San Jose2</option>
-        </select><br>
-        <label for=" language">Favorite Language:</label>
-                <select name="language" id="language">
-                    <option value="" id="language">Python</option>
-                </select><br>
-                <label for="comment">Comment(Optional):</label>
-                <input type="text" name="comment" id="comment"><br>
-                <button type="submit">Button</button>
+        <p>Name:<input type="text" name="name"></p>
+        <p>Dojo Location:<select name="location">
+                <option>San Jose2</option>
+                <option>San Jose2</option>
+            </select></p>
+        <p>Favorite Language:<select name="language">
+                <option>Python</option>
+            </select></p>
+        <p>Comment:<input type="text" name="comment"></p>
+        <button type="submit">Button</button>
     </form>
 
 </body>
